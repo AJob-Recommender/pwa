@@ -1,0 +1,41 @@
+.app {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      background-image: url(Best-Baby-Yoda-Wallpaper.jpg), url(4k-Baby-Yoda-Phone-Wallpaper-576x1024.jpg), url(HD-wallpaper-grogu-baby-yoda-mandalorin-star-wars.jpg);
+      background-repeat: no-repeat, no-repeat, no-repeat;
+      background-size: calc(100% / 3), calc(100% / 3), calc(100% / 3);
+      background-position: right center, center, left center;
+}
+
+.content {
+      width: 66%;
+      background-color: #d6eaf8;
+      padding: 50px 20px;
+      border-radius: 10px;
+}
+
+.about {
+      resize: vertical;
+}
+
+.submit div {
+      display: flex;
+      justify-content: center;
+}
+
+.result {
+      background-color: khaki;
+      width: 66%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      padding: 30px 0;
+}
+
+.result h1 {
+      margin: 0 !important;
+}
