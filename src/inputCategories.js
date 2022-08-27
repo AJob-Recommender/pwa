@@ -5,7 +5,7 @@ export const categories = [
         children: [
             {
                 label: "Programming Languages",
-                value: "programmingLanguages",
+                value: "programming_languages",
                 children: [
                     {
                         label: "Java",
@@ -49,15 +49,15 @@ export const categories = [
                     },
                     {
                         label: "Golang",
-                        value: "golang"
+                        value: "go"
                     },
                     {
                         label: "C++",
-                        value: "c++"
+                        value: "cpp"
                     },
                     {
                         label: "C#",
-                        value: "c#"
+                        value: "csharp"
                     },
                     {
                         label: "C",
@@ -73,7 +73,7 @@ export const categories = [
                     },
                     {
                         label: "Shell Scripting",
-                        value: "shellScripting"
+                        value: "bash"
                     },
                     {
                         label: "Scala",
@@ -83,15 +83,15 @@ export const categories = [
             },
             {
                 label: "Backend Frameworks",
-                value: "backendFrameworks",
+                value: "backend_frameworks",
                 children: [
                     {
                         label: "Backend Web Developments",
-                        value: "backendWebDevelopments"
+                        value: "backend_development"
                     },
                     {
                         label: "ASP.NET",
-                        value: "asp.net"
+                        value: "asp"
                     },
                     {
                         label: "Django",
@@ -107,17 +107,17 @@ export const categories = [
                     },
                     {
                         label: "Node.js",
-                        value: "node.js"
+                        value: "node"
                     },
                     {
                         label: "Express.js",
-                        value: "express.js"
+                        value: "express"
                     },
                 ]
             },
             {
                 label: "Devops Technologies",
-                value: "devopsTechnologies",
+                value: "devops",
                 children: [
                     {
                         label: "Kubernetes",
@@ -137,7 +137,7 @@ export const categories = [
                     },
                     {
                         label: "Google Cloud Platform",
-                        value: "googleCloudPlatform"
+                        value: "google_cloud_platform"
                     },
                     {
                         label: "Azure",
@@ -157,11 +157,11 @@ export const categories = [
                     },
                     {
                         label: "CI/CD",
-                        value: "ciCd"
+                        value: "ci_cd"
                     },
                     {
                         label: "Cloud Computing",
-                        value: "cloudComputing"
+                        value: "cloud"
                     },
                     {
                         label: "Devops",
@@ -171,7 +171,7 @@ export const categories = [
             },
             {
                 label: "Frontend Frameworks",
-                value: "frontendFrameworks",
+                value: "frontend_frameworks",
                 children: [
                     {
                         label: "React",
@@ -179,7 +179,7 @@ export const categories = [
                     },
                     {
                         label: "Vue.js",
-                        value: "vue.js"
+                        value: "vue"
                     },
                     {
                         label: "Angular",
@@ -201,11 +201,11 @@ export const categories = [
             },
             {
                 label: "System Design Skills",
-                value: "systemDesignSkills",
+                value: "system_design_skills",
                 children: [
                     {
                         label: "Mobile Application",
-                        value: "mobileApplication"
+                        value: "mobile_application"
                     },
                     {
                         label: "OOP",
@@ -213,11 +213,11 @@ export const categories = [
                     },
                     {
                         label: "Design Pattern",
-                        value: "designPattern"
+                        value: "design_patterns"
                     },
                     {
                         label: "System Engineering",
-                        value: "systemEngineering"
+                        value: "software_engineering"
                     },
                     {
                         label: "Programming",
@@ -229,7 +229,11 @@ export const categories = [
                     },
                     {
                         label: "Web Development",
-                        value: "webDevelopment"
+                        value: "web_development"
+                    },
+                    {
+                        label: "Web Applications",
+                        value: "web_applications"
                     },
                     {
                         label: "Microservices",
@@ -237,7 +241,7 @@ export const categories = [
                     },
                     {
                         label: "Software Testing",
-                        value: "softwareTesting"
+                        value: "software_testing"
                     },
                     {
                         label: "UML",
@@ -247,7 +251,7 @@ export const categories = [
             },
             {
                 label: "Version Control",
-                value: "versionControl",
+                value: "version_controls",
                 children: [
                     {
                         label: "Git",
@@ -257,11 +261,11 @@ export const categories = [
             },
             {
                 label: "UI/UX",
-                value: "uiUx",
+                value: "ui_ux",
                 children: [
                     {
                         label: "Graphic Design",
-                        value: "graphicDesign"
+                        value: "graphic_design"
                     },
                     {
                         label: "Illustrator",
@@ -277,21 +281,21 @@ export const categories = [
                     },
                     {
                         label: "UI/UX",
-                        value: "uiUx"
+                        value: "ui_ux"
                     },
                 ]
             },
             {
                 label: "Data Related",
-                value: "dataRelated",
+                value: "data_related",
                 children: [
                     {
                         label: "Data Integration",
-                        value: "dataIntegration"
+                        value: "data_integration"
                     },
                     {
                         label: "Big Data",
-                        value: "bigData"
+                        value: "big_data"
                     },
                     {
                         label: "Data",
@@ -303,11 +307,11 @@ export const categories = [
                     },
                     {
                         label: "Information Retrieval",
-                        value: "informationRetrieval"
+                        value: "information_retrieval"
                     },
                     {
                         label: "Data Visualization",
-                        value: "dataVisualization"
+                        value: "data_visualization"
                     },
                     {
                         label: "Selenium",
@@ -315,7 +319,7 @@ export const categories = [
                     },
                     {
                         label: "PySpark",
-                        value: "pySpark"
+                        value: "pyspark"
                     },
                     {
                         label: "Mapreduce",
@@ -331,7 +335,7 @@ export const categories = [
                     },
                     {
                         label: "Apache Sqoop",
-                        value: "apacheSqoop"
+                        value: "sqoop"
                     },
                     {
                         label: "Tableau",
@@ -343,19 +347,19 @@ export const categories = [
                     },
                     {
                         label: "Apache Oozie",
-                        value: "apacheOozie"
+                        value: "oozie"
                     },
                     {
                         label: "Data Warehousing",
-                        value: "dataWarehousing"
+                        value: "data_warehousing"
                     },
                     {
                         label: "Apache Ambari",
-                        value: "apacheAmbari"
+                        value: "ambari"
                     },
                     {
                         label: "Cloudera Impala",
-                        value: "clouderaImpala"
+                        value: "impala"
                     },
                     {
                         label: "Snowflake",
@@ -369,7 +373,7 @@ export const categories = [
                 children: [
                     {
                         label: "Data Migration",
-                        value: "dataMigration"
+                        value: "data_migration"
                     },
                     {
                         label: "MongoDB",
@@ -377,27 +381,27 @@ export const categories = [
                     },
                     {
                         label: "Database Design",
-                        value: "databaseDesign"
+                        value: "database_design"
                     },
                     {
                         label: "Nosql",
-                        value: "nosql"
+                        value: "no_sql"
                     },
                     {
                         label: "Mysql",
-                        value: "mysql"
+                        value: "my_sql"
                     },
                     {
                         label: "Postgresql",
-                        value: "postgresql"
+                        value: "postgre_sql"
                     },
                     {
                         label: "Graphql",
-                        value: "graphql"
+                        value: "graph_ql"
                     },
                     {
                         label: "Elasticsearch",
-                        value: "elasticsearch"
+                        value: "elastic_search"
                     },
                     {
                         label: "Redis",
@@ -405,11 +409,11 @@ export const categories = [
                     },
                     {
                         label: "Data Center",
-                        value: "dataCenter"
+                        value: "data_center"
                     },
                     {
                         label: "MariaDB",
-                        value: "mariadb"
+                        value: "maria_db"
                     },
                     {
                         label: "Oracle",
@@ -423,31 +427,31 @@ export const categories = [
             },
             {
                 label: "AI Modeling",
-                value: "aiModeling",
+                value: "ai_modeling",
                 children: [
                     {
                         label: "Artificial Intelligence(AI)",
-                        value: "artificialIntelligence"
+                        value: "ai"
                     },
                     {
                         label: "Regression Testing",
-                        value: "regressionTesting"
+                        value: "regression_testing"
                     },
                     {
                         label: "Predictive Modeling",
-                        value: "predictiveModeling"
+                        value: "predictive_modeling"
                     },
                     {
                         label: "Machine Learning",
-                        value: "machineLearning"
+                        value: "machine_learning"
                     },
                     {
                         label: "Image Processing",
-                        value: "imageProcessing"
+                        value: "image_processing"
                     },
                     {
                         label: "Data Science",
-                        value: "dataScience"
+                        value: "data_science"
                     },
                     {
                         label: "NLP",
@@ -455,45 +459,45 @@ export const categories = [
                     },
                     {
                         label: "Data Modeling",
-                        value: "dataModeling"
+                        value: "data_modeling"
                     },
                     {
                         label: "Computer Vision",
-                        value: "computerVision"
+                        value: "computer_vision"
                     },
                     {
                         label: "Deep Learning",
-                        value: "deepLearning"
+                        value: "deep_learning"
                     },
                     {
                         label: "Data Mining",
-                        value: "dataMining"
+                        value: "data_mining"
                     },
                     {
                         label: "Data Analysis",
-                        value: "dataAnalysis"
+                        value: "data_analysis"
                     },
                     {
                         label: "MLOps",
-                        value: "mlOps"
+                        value: "ml_ops"
                     },
                     {
                         label: "Supervised Learning",
-                        value: "supervisedLearning"
+                        value: "supervised_learning"
                     },
                     {
                         label: "Recommender Systems",
-                        value: "recommenderSystems"
+                        value: "recommender_systems"
                     },
                     {
                         label: "Data Preprocessing",
-                        value: "dataPreprocessing"
+                        value: "data_preprocessing"
                     },
                 ]
             },
             {
                 label: "AI Frameworks",
-                value: "aiFrameworks",
+                value: "ai_frameworks",
                 children: [
                     {
                         label: "Pandas",
@@ -513,7 +517,7 @@ export const categories = [
                     },
                     {
                         label: "Scikit-Learn",
-                        value: "scikitLearn"
+                        value: "scikit_learn"
                     },
                     {
                         label: "Seaborn",
@@ -523,19 +527,19 @@ export const categories = [
             },
             {
                 label: "Network Skills",
-                value: "networkSkills",
+                value: "network_skills",
                 children: [
                     {
                         label: "Dynamic Host Configuration Protocol(DHCP)",
-                        value: "dynamicHostConfigurationProtocol"
+                        value: "dhcp"
                     },
                     {
                         label: "Domain Name System(DNS)",
-                        value: "domainNameSystem"
+                        value: "dns"
                     },
                     {
                         label: "Routing Protocols",
-                        value: "routingProtocols"
+                        value: "routing_protocols"
                     },
                     {
                         label: "Routers",
@@ -558,16 +562,12 @@ export const categories = [
                         value: "switching"
                     },
                     {
-                        label: "DHCP Server",
-                        value: "dhcpServer"
-                    },
-                    {
                         label: "Network Security",
-                        value: "networkSecurity"
+                        value: "network_security"
                     },
                     {
                         label: "Lan-Wan",
-                        value: "lanWan"
+                        value: "lan_wan"
                     },
                     {
                         label: "Hacking",
@@ -575,19 +575,19 @@ export const categories = [
                     },
                     {
                         label: "Cyber Security",
-                        value: "cyberSecurity"
+                        value: "cyber_security"
                     },
                     {
                         label: "Penetration Test",
-                        value: "penetrationTest"
+                        value: "penetration_testing"
                     },
                     {
                         label: "Network Administration",
-                        value: "networkAdministration"
+                        value: "network_administration"
                     },
                     {
                         label: "Network Security",
-                        value: "networkSecurity"
+                        value: "network_security"
                     },
                     {
                         label: "IP",
@@ -595,13 +595,13 @@ export const categories = [
                     },
                     {
                         label: "TCP/IP",
-                        value: "tcpIp"
+                        value: "tcp_ip"
                     },
                 ]
             },
             {
                 label: "Hardware Skills",
-                value: "hardwareSkills",
+                value: "hardware_skills",
                 children: [
                     {
                         label: "FPGA",
@@ -609,7 +609,7 @@ export const categories = [
                     },
                     {
                         label: "PCB Design",
-                        value: "pcbDesign"
+                        value: "pcb"
                     },
                     {
                         label: "VLSI",
@@ -621,7 +621,7 @@ export const categories = [
                     },
                     {
                         label: "Circuit Design",
-                        value: "circuitDesign"
+                        value: "circuit_design"
                     },
                     {
                         label: "Embedded",
@@ -629,27 +629,27 @@ export const categories = [
                     },
                     {
                         label: "Computer Architecture",
-                        value: "computerArchitecture"
+                        value: "computer_architecture"
                     },
                     {
                         label: "PSpice",
-                        value: "psPice"
+                        value: "pspice"
                     },
                     {
                         label: "Microcontroller",
-                        value: "microcontroller"
+                        value: "micro_controller"
                     },
                     {
                         label: "Controller Area Network(CAN)",
-                        value: "controllerAreaNetwork"
+                        value: "controller_area_network"
                     },
                     {
                         label: "Signal Processing",
-                        value: "signalProcessing"
+                        value: "signal_processing"
                     },
                     {
                         label: "Raspberry Pi",
-                        value: "raspberryPi"
+                        value: "raspberry_pi"
                     },
                     {
                         label: "Verilog",
@@ -697,39 +697,39 @@ export const categories = [
         children: [
             {
                 label: "Data Scientist",
-                value: "dataScientist"
+                value: "data_scientist"
             },
             {
                 label: "UI/UX Designer",
-                value: "uiUxDesigner"
+                value: "ui_ux_designer"
             },
             {
                 label: "Network Engineer",
-                value: "networkEngineer"
+                value: "network_engineer"
             },
             {
                 label: "Data Engineer",
-                value: "dataEngineer"
+                value: "data_engineer"
             },
             {
                 label: "Software Engineer",
-                value: "softwareEngineer"
+                value: "software_engineer"
             },
             {
                 label: "Frontend Developer",
-                value: "frontendDeveloper"
+                value: "frontend_developer"
             },
             {
                 label: "Hardware Engineer",
-                value: "hardwareEngineer"
+                value: "hardware_engineer"
             },
             {
                 label: "Devops Engineer",
-                value: "devopsEngineer"
+                value: "devops_engineer"
             },
             {
                 label: "Database Administrator",
-                value: "databaseAdministrator"
+                value: "database_administrator"
             },
         ]
     },
@@ -739,19 +739,19 @@ export const categories = [
         children: [
             {
                 label: "Bachelor Computer",
-                value: "bachelorComputer"
+                value: "bachelor_computer"
             },
             {
                 label: "Master Computer",
-                value: "masterComputer"
+                value: "master_computer"
             },
             {
                 label: "PHD Computer",
-                value: "phdComputer"
+                value: "phd_computer"
             },
             {
                 label: "Other Major",
-                value: "otherMajor"
+                value: "other_major"
             }
         ]
     }
