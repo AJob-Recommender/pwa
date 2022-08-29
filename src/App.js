@@ -177,8 +177,6 @@ function App() {
               switching: isInValues("skills", "network_skills", "switching"),
               network_security: isInValues("skills", "network_skills", "network_security"),
               lan_wan: isInValues("skills", "network_skills", "lan_wan"),
-              hacking: isInValues("skills", "network_skills", "hacking"),
-              cyber_security: isInValues("skills", "network_skills", "cyber_security"),
               penetration_testing: isInValues("skills", "network_skills", "penetration_testing"),
               network_administration: isInValues("skills", "network_skills", "network_administration"),
               ip: isInValues("skills", "network_skills", "ip"),
