@@ -6,7 +6,9 @@ import {useState} from "react";
 
 function App() {
     const [values, setValues] = useState([])
-    const [result, setResult] = useState()
+    const [result1, setResult1] = useState()
+    const [result2, setResult2] = useState()
+    const [result3, setResult3] = useState()
     const [isLoading, setIsLoading] = useState(false)
 
     const isInValues = (category, type, name) => {
@@ -216,7 +218,7 @@ function App() {
               ui_ux_designer: isInValues("experience", null, "ui_ux_designer"),
               network_engineer: isInValues("experience", null, "network_engineer"),
               data_engineer: isInValues("experience", null, "data_engineer"),
-              software_engineer: isInValues("experience", null, "software"),
+              software_engineer: isInValues("experience", null, "software_engineer"),
               frontend_developer: isInValues("experience", null, "frontend_developer"),
               hardware_engineer: isInValues("experience", null, "hardware_engineer"),
               devops_engineer: isInValues("experience", null, "devops_engineer"),
@@ -225,10 +227,15 @@ function App() {
         }
         fetch("http://localhost:8080/predict", {
             method: "POST",
+            headers: {
+                "Content-type": "application/json"
+              },
             body: JSON.stringify(body)
         }).then(res => res.json()).then(data => {
           setValues([])
-          setResult(data.job)
+          setResult1(data.job1)
+          setResult2(data.job2)
+          setResult3(data.job3)
           setIsLoading(false)
         })
     }
@@ -252,7 +259,9 @@ function App() {
               </Form>
             </div>
             <Spin wrapperClassName='result' spinning={isLoading}>
-              <h1>RESULT: {result}</h1>
+              <h1>First Job: {result1}</h1>
+              <h1>Second Job: {result2}</h1>
+              <h1>Third Job: {result3}</h1>
             </Spin>
         </div>
     );
