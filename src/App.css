@@ -4,7 +4,7 @@
       justify-content: center;
       align-items: center;
       gap: 30px;
-      background-image: url(Best-Baby-Yoda-Wallpaper.jpg), url(4k-Baby-Yoda-Phone-Wallpaper-576x1024.jpg), url(HD-wallpaper-grogu-baby-yoda-mandalorin-star-wars.jpg);
+      background-image: url(images/Best-Baby-Yoda-Wallpaper.jpg), url(images/4k-Baby-Yoda-Phone-Wallpaper-576x1024.jpg), url(images/HD-wallpaper-grogu-baby-yoda-mandalorin-star-wars.jpg);
       background-repeat: no-repeat, no-repeat, no-repeat;
       background-size: calc(100% / 3), calc(100% / 3), calc(100% / 3);
       background-position: right center, center, left center;
