@@ -6,11 +6,8 @@ import {useState} from "react";
 
 function App() {
     const [values, setValues] = useState([])
-    const [result1, setResult1] = useState()
-    const [result2, setResult2] = useState()
-    const [result3, setResult3] = useState()
-    const [isLoading, setIsLoading] = useState(false)
-
+    const [result, setResult] = useState([]);
+    const [isLoading, setIsLoading] = useState(false);
     const isInValues = (category, type, name) => {
         let result = 0
         values.forEach(value => {
@@ -229,13 +226,11 @@ function App() {
             method: "POST",
             headers: {
                 "Content-type": "application/json"
-              },
+            },
             body: JSON.stringify(body)
         }).then(res => res.json()).then(data => {
           setValues([])
-          setResult1(data.job1)
-          setResult2(data.job2)
-          setResult3(data.job3)
+          setResult(data.results)
           setIsLoading(false)
         })
     }
@@ -259,9 +254,9 @@ function App() {
               </Form>
             </div>
             <Spin wrapperClassName='result' spinning={isLoading}>
-              <h1>First Job: {result1}</h1>
-              <h1>Second Job: {result2}</h1>
-              <h1>Third Job: {result3}</h1>
+              <h1>{!result[0]?.job  ? "" : `First Job: ${result[0]?.job} - Confidence: ${result[0]?.confidence}`}</h1>
+              <h1>{!result[1]?.job  ? "" : `Second Job: ${result[1]?.job} - Confidence: ${result[1]?.confidence}` }</h1>
+              <h1>{!result[2]?.job  ? "" : `Third Job: ${result[2]?.job} - Confidence: ${result[2]?.confidence}`}</h1>
             </Spin>
         </div>
     );
